@@ -1,0 +1,236 @@
+{
+    "categorias":
+        {"mangas": [
+                {
+                    "id": 1000,
+                    "nombre": "Naruto tomo 1",
+                    "autor": "Masashi Kishimoto",
+                    "precio": 8100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/narutoTomo1.webp"
+                },
+                {
+                    "id": 1001,
+                    "nombre": "Naruto tomo 2",
+                    "autor": "Masashi Kishimoto",
+                    "precio": 8200,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/narutoTomo2.jfif"
+                },
+                {
+                    "id": 1003,
+                    "nombre": "Naruto tomo 3",
+                    "autor": "Masashi Kishimoto",
+                    "precio": 8300,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/onePieceTomo3.webp"
+                },
+                {
+                    "id": 1004,
+                    "nombre": "Chainsaw Man Tomo 1",
+                    "autor": "Tatsuki Fujimoto",
+                    "precio": 8100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/chainsawManTomo1.jpg"
+                },
+                {
+                    "id": 1005,
+                    "nombre": "One Piece Español Tomo 1",
+                    "autor": "Eiichirō Oda",
+                    "precio": 9100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/onePieceTomo1.jpg"
+                },
+                {
+                    "id": 1006,
+                    "nombre": "One Piece Español Tomo 2 East Blue",
+                    "autor": "Eiichirō Oda",
+                    "precio": 9200,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/imgproductoHC11.webp"
+                },
+                {
+                    "id": 1007,
+                    "nombre": "One Piece Español Tomo 3",
+                    "autor": "Eiichirō Oda",
+                    "precio": 9300,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/onePieceTomo3.webp"
+                },
+                {
+                    "id": 1008,
+                    "nombre": "One Piece Español Tomo 4",
+                    "autor": "Eiichirō Oda",
+                    "precio": 9400,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Mangas/onePieceTomo4.jpg"
+                }
+                
+            ],
+            "horror": [
+                {
+                    "id": 2001,
+                    "nombre": "La llamada de Cthulu",
+                    "autor": "H.P Lovecraft",
+                    "precio": 11100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/llamadaCthulhu.jpg"
+                },
+                {
+                    "id": 2002,
+                    "nombre": "Dagon",
+                    "autor": "H.P Lovecraft",
+                    "precio": 11200,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/dagon.jpeg"
+                },
+                {
+                    "id": 2003,
+                    "nombre": "Necronomicon",
+                    "autor": "H.P Lovecraft",
+                    "precio": 11300,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/necronomicon.jpg"
+                },
+                {
+                    "id": 2004,
+                    "nombre": "Los Pilares de Cthulu",
+                    "autor": "H.P Lovecraft",
+                    "precio": 11400,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/pilaresCthulhu.jfif"
+                },
+                {
+                    "id": 2005,
+                    "nombre": "La Maldición de Sarnath",
+                    "autor": "H.P Lovecraft",
+                    "precio": 11500,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/maldicionSarnath.jpg"
+                },
+                {
+                    "id": 2006,
+                    "nombre": "El caso de Charles Dexter Ward",
+                    "autor": "H.P Lovecraft",
+                    "precio": 11600,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/casoCharlesDexter.jpg"
+                },
+                {
+                    "id": 2007,
+                    "nombre": "La casa en el confín de la Tierra",
+                    "autor": "Richard Corben - Simon Revelstroke",
+                    "precio": 12100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/casaConfinesTierra.JPG"
+                },
+                {
+                    "id": 2008,
+                    "nombre": "Los que acechan en el abismo",
+                    "autor": "Brian Lumley",
+                    "precio": 13100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/habitantesAbismo.jpg"
+                },
+                {
+                    "id": 2009,
+                    "nombre": "Night Shift",
+                    "autor": "Stephen King",
+                    "precio": 14100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/nightShift.jpg"
+                },
+                {
+                    "id": 2010,
+                    "nombre": "IT",
+                    "autor": "Stephen King",
+                    "precio": 14200,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Horror/it.jfif"
+                }
+            ],
+            "juvenil": [
+                {
+                    "id": 3001,
+                    "nombre": "Harry Potter y la Piedra Filosofal",
+                    "autor": "J.K Rowling",
+                    "precio": 15100,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryPiedraFilosofal.webp"
+                },
+                {
+                    "id": 3002,
+                    "nombre": "Harry Potter y la Camara de los Secretos",
+                    "autor": "J.K Rowling",
+                    "precio": 15200,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryCamaraSecreta.jpg"
+                },
+                {
+                    "id": 3003,
+                    "nombre": "Harry Potter y Prisionero de Azkaban",
+                    "autor": "J.K Rowling",
+                    "precio": 15400,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryPrisioneroAzkaban.jpg"
+                },
+                {
+                    "id": 3004,
+                    "nombre": "Harry Potter y el Caliz de Fuego",
+                    "autor": "J.K Rowling",
+                    "precio": 15500,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryCalizFuego.webp"
+                },
+                {
+                    "id": 3005,
+                    "nombre": "Harry Potter y la Orden del Fenix",
+                    "autor": "J.K Rowling",
+                    "precio": 15600,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryOrdenFenix.jpg"
+                },
+                {
+                    "id": 3006,
+                    "nombre": "Harry Potter y el Principe Mestizo",
+                    "autor": "J.K Rowling",
+                    "precio": 15600,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryPrincipeMestizo.webp"
+                },
+                {
+                    "id": 3007,
+                    "nombre": "Harry Potter y las Reliquias de la Muerte",
+                    "autor": "J.K Rowling",
+                    "precio": 15700,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/harryReliquiasMuerte.webp"
+                },
+                {
+                    "id": 3008,
+                    "nombre": "Coraline",
+                    "autor": "Neil Gaiman",
+                    "precio": 15800,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/coraline.jpg"
+                },
+                {
+                    "id": 3009,
+                    "nombre": "Buscando a Alaska",
+                    "autor": "J.K Rowling",
+                    "precio": 15900,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/buscandoAlaska.jpg"
+                },
+                {
+                    "id": 3010,
+                    "nombre": "Animales Fántasticos",
+                    "autor": "J.K Rowling",
+                    "precio": 15000,
+                    "cantidad": 0,
+                    "imagen": "../multimedia/Productos/Juvenil/animalesFantasticos1.jpg"
+                }
+            ]
+        }
+
+}
