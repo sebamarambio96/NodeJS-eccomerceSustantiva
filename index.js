@@ -7,6 +7,10 @@ const cors = require('cors')
 app.use(cors())
 const jsonParser = bodyParser.json() 
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + "/public/index.html")
+} )
+
 //Retorna TODOS los productos a la venta
 app.get('/products', (req, res) => {
     let data = fs.readFileSync('./data/products.json')
@@ -36,55 +40,7 @@ app.get('/product/:id', (req, res) => {
     res.json(product)
 })
 
-//Inserta una NUEVO usuario y verifica si el correo ya existe
-app.post('/addUser/',jsonParser, (req, res) => {
-    //http://localhost:3001/addUser/ ejemplo
-    // console.log(req.query)
-    let data = fs.readFileSync('./data/users.json')
-    let users = JSON.parse(data)
-    console.log(req.body);
-    if (users.users.find(user => user.email === req.body.email)) {
-        res.send('El correo ya tiene una cuenta asociada')
-    }
-    users.users.push(req.body)
-    fs.writeFileSync('./data/users.json', JSON.stringify(users))
-    res.send(users)
-})
 
-//Usuario ADMIN tiene falcutades para agregar, eliminar o modificar productos, tambien tiene permisos para eliminar usuarios de la base de datos
-//ELIMINAR MASCOTA por nombre 💀
-/* app.delete('/deletePetName/:namePet', (req, res) => {
-    //http://localhost:3001/deletePetName/Benji ejemplo
-    let data = fs.readFileSync('./data/mascotas.json')
-    let pets = JSON.parse(data)
-    const petFound = pets.pets.find(pet => pet.name === req.params.namePet)
-    if (!petFound) {
-        res.status(404).json({ message: 'pet not found' })
-    } else {
-        pets = pets.pets.filter(pet => pet.name !== req.params.namePet)
-        console.log(pets)
-        //podemos enviar un codigo de estatus
-        fs.writeFileSync('./data/mascotas.json', `{"pets": ${JSON.stringify(pets)}}`)
-        res.sendStatus(204)
-    }
-})
-
-//ELIMINAR MASCOTAS asociadas al rut del dueño 
-app.delete('/deletePetRut/:ownerRut', (req, res) => {
-    //http://localhost:3001/deletePetRut/11111111-1 ejemplo
-    let data = fs.readFileSync('./data/mascotas.json')
-    let pets = JSON.parse(data)
-    const petFound = pets.pets.find(pet => pet.rut === req.params.ownerRut)
-    if (!petFound) {
-        res.status(404).json({ message: 'owner not found' })
-    } else {
-        pets = pets.pets.filter(pet => pet.rut !== req.params.ownerRut)
-    console.log(pets)
-    //podemos enviar un codigo de estatus
-    fs.writeFileSync('./data/mascotas.json', `{"pets": ${JSON.stringify(pets)}}`)
-    res.sendStatus(204)
-    }
-}) */
 
 app.listen(3000)
 console.log(`Server on port 3000`)
